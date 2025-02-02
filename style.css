@@ -1,0 +1,104 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+/* creating font face*/
+@font-face 
+    {
+        font-family: 'futura' ;/* you can add any name*/
+        src: url('./futura/futura\ medium\ bt.ttf ');/*the url for the font in the pc*/
+    }
+
+
+/* header css*/
+.header
+    {
+        height: 70px;
+        width: 100%;
+        background-color:#ffffff ;
+        padding:0px 8%;
+        display:flex;
+        justify-content: space-between;
+        color: #590d22;
+    }
+
+
+.logo
+    {
+        width: 10%;
+        height: 70px;
+        background-color:#ffffff ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'futura';
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+
+.navigation
+    {
+        width: 40%;
+        height:70px;
+        background-color:#ffffff;
+        
+    }
+
+
+.nav-links
+    {
+        width:100%;
+        height:70px;
+        background-color: #ffffff; 
+        display:flex;
+        list-style-type: none;
+        align-items:center; 
+        justify-content: space-between;
+        font-family: 'futura';
+        padding-inline: 5px;
+        font-size: 17px;
+       
+       
+        
+    }
+i   
+{
+font-size: 20px;
+
+}
+a:link
+    {
+        text-decoration:none;
+        text-decoration-color: #590d22;
+        font-family: 'future';
+    }
+    
+
+a:visited 
+    {
+        color: #590d22;
+        font-family: 'future';
+    }
+
+.utils
+    {
+      width: 15%;
+      height: 70px;
+      background-color: #ffffff;
+    }
+
+/* banner css*/
+.banner
+    {
+        width:100%;
+        height:800px;
+        background-color:#fff0f3;
+
+
+    }
+    
