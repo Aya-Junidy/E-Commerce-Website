@@ -38,6 +38,7 @@
         font-family: 'futura';
         font-weight: bold;
         font-size: 25px;
+        
     }
 
 
@@ -67,12 +68,16 @@
         
     }
 
-    
+i
+    {
+        font-size: 20px;
+    }
 a:link
     {
         text-decoration:none;
-        text-decoration-color: #590d22;
+        /*text-decoration-color: #590d22;*/
         font-family: 'future';
+        color: #590d22;
     }
     
 
@@ -85,7 +90,7 @@ a:visited
     
 .utils
     {
-      width: 15%;
+      width: 12%;
       height: 70px;
       background-color: #ffffff;
     }
@@ -94,10 +99,8 @@ a:visited
 .banner
     {
         width:100%;
-        height:800px;
+        height:700px;
         background-color:#fff0f3;
-
-
     }
     
 
@@ -106,5 +109,134 @@ a:visited
         width:100%;
         height: 100%;
         background-color:black;
+        background-image: url(./images/h1-slide-show-1_1_1.webp);
+        /* background-repeat: no-repeat;
+        background-size:contain; */
+        display: flex;
+        align-items: center;
+        padding-left: 20%;
+
+       
 
     }
+
+.slide-details 
+    {
+        width:27%;
+        padding: 40px;
+       /* background-color:#ffffff;*/
+        color:#590d22;
+        font-family: 'futura';
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 25px;
+    }
+
+h1
+    {
+        font-size: 30px;
+    }
+
+.btn
+    {
+        padding:12px 30px;
+        background-color: #590d22;
+        color:#fff0f3;
+        font-family: 'futura';
+        border: 2px solid ;
+        text-transform: uppercase;
+        border-radius: 30px;
+
+    }
+
+
+    /* featured section css */
+
+.featured
+    {
+        width: 100%;
+        padding:10px 0px;
+        background-color: #800f2f;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+
+
+    
+.featured-box-1
+    {
+        width:30%;
+        height:500px;
+        background-color: #fff0f3;
+        margin-left: 8px;
+        position: relative;
+    }
+
+.featured-box-2
+    {
+        width:35%;
+        height: 500px;
+        background-color: #fff0f3;
+    }
+
+
+
+
+.featured-box-3
+    {
+        width:30%;
+        height:500px;
+        background-color: #fff0f3;
+        margin-right:8px;
+    }
+
+
+.bg-image
+    {
+        width:100%;
+        height:100%;
+        background-color:aqua;
+        overflow: hidden;
+        /* position: absolute; */
+    }
+
+
+
+.bg-image>img 
+    {
+        width:100%;
+    }
+
+
+.overlay
+    { 
+
+        width:100%;
+        height:100%;
+        /* background-color:blue; */
+        display:flex;
+        position: absolute;
+        padding:10%;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+
+
+.btn-white
+    {
+        background-color: #590d22;
+        border: 1px solid #590d22 ;
+        color: #fff0f3;
+        position: absolute;
+        font-family: 'futura';
+        border-radius: 30px;
+        width:30%;
+        height: 5%;
+    }
+
+
+    
