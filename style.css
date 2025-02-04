@@ -3,6 +3,8 @@
     margin:0px;
     padding:0px;
     box-sizing: border-box;
+    flex-wrap: wrap;
+
 }
 
 
@@ -24,6 +26,7 @@
         display:flex;
         justify-content: space-between;
         color: #590d22;
+        position:fixed ;
     }
 
 
