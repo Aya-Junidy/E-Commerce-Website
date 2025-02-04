@@ -26,7 +26,7 @@
         display:flex;
         justify-content: space-between;
         color: #590d22;
-        position:fixed ;
+        /* position:fixed ; */
     }
 
 
@@ -163,7 +163,6 @@ h1
         background-color: #ffffff;
         display: flex;
         justify-content: space-between;
-
     }
 
 
@@ -299,5 +298,91 @@ h1
         z-index: 20;
         text-transform: uppercase; 
     }
+
+
+/* products css */
+.products
+    {
+        width:100%;
+        padding:30px 20%;
+        background-color: #ffccd5;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        
+    }
+
+
+.section-title
+    {
+        font-family: 'futura';
+        color:#590d22;
+        text-align: center;
+        
+    }
+
+.products-list
+    {
+        width:100%;
+        padding:20px 0px;
+        background-color:#ffccd5 ;
+
+    }
+
+.product
+    {
+        width:23%;
+        height:420px;
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        font-family: 'futura';
+        font-size: 17px;
+    }
+
+
+.product-image
+    {
+        height:370px;
+        width:100%;
+        background-color: yellow;
+        position: relative;
+    }
+.main-image
+    {
+        width:100%;
+        height:100%;
+        background-color: aqua;
+        position: absolute;
+        
+    }
+.effect-image
+    {
+        width:100%;
+        height:100%;
+        background-color: brown;
+        position: absolute;
+        
+    }
+.overlay-image
+    {
+        width:100%;
+        height:100%;
+        background-color: purple;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        
+
+    }
+.product-name
+    {
+        margin-left: 20px;
+    }
+
+
+
 
 
